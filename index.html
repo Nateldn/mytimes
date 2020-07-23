@@ -3,84 +3,116 @@
   <head>
     <meta charset="utf-8">
     <title>My Times</title>
-    <link type="text/css" rel="stylesheet" href="/css/main.css">
+    <link type="text/css" rel="stylesheet" href="resources/css/main.css">
   </head>
   <body>
 
     <header>
-      <img src="./resources/images/img-myt-logo.jpg" alt="My Times Logo"><h1>My Times</h1>
+      <div class="logo_title">
+        <img src="./resources/images/img-myt-logo.jpg" alt="My Times Logo">
+          <span><h1>My Times</h1></span>
+      </div>
+
+       <nav class="menu">
+         <span class="menu_item"><a href="#">World</a></span>
+         <span class="menu_item"><a href="#">U.S.</a></span>
+         <span class="menu_item"><a href="#">Tech</a></span>
+         <span class="menu_item"><a href="#">Science</a></span>
+       </div>
     </header>
 
-    <nav>
-      <p><a href="#">World</a></p>
-      <p><a href="#">U.S.</a></p>
-      <p><a href="#">Tech</a></p>
-      <p><a href="#">Science</a></p>
-
-
-    </nav>
 
     <!-- Main Story -->
-
-      <div class="mainheadline">
-        <div class="">
-          <img src="./resources/images/img-story-main.png" alt="">
-          <h2></h2>
+    <div class="page_wrap">
+      <div class="lead_column">
+        <div class="main_story">
+          <div class="main_story_image">
+            <h2>Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."</h2>
+          </div>
           <p>MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec nisl at augue dapibus dignissim. Nunc condimentum rutrum metus, ac eleifend lacus viverra nec. Proin ultrices egestas diam sed mollis. Nulla sapien massa, dictum vitae est et, pellentesque rutrum risus. Nunc volutpat, metus ac rutrum tempus, orci nisi porttitor dolor, sit amet luctus metus est ut mauris. Quisque vulputate nisl vitae massa rhoncus, at sagittis elit accumsan. Etiam tempus, lorem quis blandit imperdiet, enim dui lobortis tortor, sit amet lobortis arcu ex id odio. Nam fermentum nulla et eros bibendum, sed ullamcorper massa scelerisque. Vestibulum aliquet placerat leo a hendrerit. Nulla non sagittis neque. Nullam sit amet fringilla massa.</p>
+        </div>
+        <!-- HEADLINES & EXCERPT x2 -->
+        <div class="small_headlines_wrap">
+          <div class="small_headlines_content">
+            <h2>Orca Spends Vacation at Land World Puget</h3>
+            <p>PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan...</p>
+          </div>
+
+          <div class="small_headlines_content">
+            <h2>Burger for Breakfast: How Early is too Early?</h3>
+            <p>Mew York, MY—Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat.</p>
+          </div>
+
+
+
+        </div>  <!-- end HEADLINES & EXCERPT x2 -->
+
+
+        <!-- IMAGE & HEADLINE x2 -->
+        <div class="image_headline_wrap">
+          <div class="image_headline_content">
+            <h2>Earth Spins Backwards for 2017</h3>
+          </div>
+
+          <div class="image_headline_content-2">
+            <h2>Research Shows Cameras Erase Memory</h3>
+          </div>
+
+
+
         </div>
 
       </div>
-      <h2></h2>
-
-      <!-- HEADLINES & EXCERPT x2 -->
-      <div class="">
-        <h3>Orca Spends Vacation at Land World Puget</h3>
-        <p>PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan...</p>
-
-        <h3>Burger for Breakfast: How Early is too Early?</h3>
-        <p>Mew York, MY—Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat.</p>
-      </div>  <!-- end HEADLINES & EXCERPT x2 -->
-
-      <!-- IMAGE & HEADLINE x2 -->
-      <div class="">
-        <h3>Earth Spins Backwards for 2017</h3>
-        <img src="./resources/images/img-story-2.png" alt="">
-
-        <h3>Research Shows Cameras Erase Memory</h3>
-        <img src="./resources/images/img-story-3.png" alt="">
-      </div>
 
 
-      <div class="">
+
+
+
+
+    <div class="second_column">
+      <div>
         <h2>FBI Finds Action Star Guilty of False Advertising</h2>
         <p>WASHINGTON DC- Donec luctus sem augue, rutrum posuere orci aliquam sed. Nam vitae aliquam lectus. Sed tempor tortor est, nec sagittis eros tincidunt sed. Morbi venenatis condimentum sem, vitae sollicitudin turpis pulvinar eget. Morbi pellentesque consectetur mi id auctor. Phasellus tincidunt orci mauris, placerat pharetra urna fringilla vitae. Morbi eget rutrum urna. Cras condimentum augue ut ante sollicitudin interdum. Pellentesque cursus dolor at tincidunt cursus. Vestibulum blandit aliquam felis...</p>
       </div>
 
-      <div class="">
+      <div>
         <h3>Cats in Control-Is It a Thing?</h3>
         <img src="./resources/images/img-story-1.png" alt="">
+        <p>BROOKLYN, NY- In molestie nulla sodales sit amet. Proin vulputate, ipsum porta aliquam commodo, nunc nibh tincidunt lorem, vel consectetur neque mi vel neque. Mauris ultricies, nulla scelerisque sollicitudin lobortis, dui est sodales sapien, a vestibulum velit diam eget felis. Vivamus dignissim lacinia dolor, quis commodo tellus pellentesque in.</p>
       </div>
+    </div>
 
-      <aside class="">
-        <img src="./resources/images/img-news-bite.png" alt="">
-        <div class="">
-          <p>Cat Emoji Goes Viral</p>
-          <p>Buy Youtube Views</p>
-          <p>Home Business Advertising Ideas</p>
-          <p>Advertising Internet Online</p>
-          <p>Illustration in Marketing Materials</p>
-          <p>Finally a Top Secret Way You Can</p>
+    <aside>
+      <img src="./resources/images/img-news-bite.png" alt="">
+      <h3>News Bites</h3>
+      <div class="news_bites">
+        <span class="bite_item">Cat Emoji Goes Viral</span>
+        <span class="bite_item">Buy Youtube Views</span>
+        <span class="bite_item">Home Business Advertising Ideas</span>
+        <span class="bite_item">Advertising Internet Online</span>
+        <span class="bite_item">Illustration in Marketing Materials</span>
+        <span class="bite_item">Finally a Top Secret Way You Can</span>
+      </div> <!-- end div .news_bites -->
+    </aside>
 
-        </div>
-      </aside>
+
+    </div><!-- Close .page_wrap -->
+
+
+
 
       <footer>
-        <p>MY Times |</p>
-        <p><a href="#">World</a></p>
-        <p><a href="#">U.S.</a></p>
-        <p><a href="#">Tech</a></p>
-        <p><a href="#">Science</a></p>
-        <p>© 2016, My Times (A Division of Codecademy bite)</p>
+
+          <span class="footer_title">MY Times |</span>
+          <nav>
+          <span class="menu_item"><a href="#">World</a></span>
+          <span class="menu_item"><a href="#">U.S.</a></span>
+          <span class="menu_item"><a href="#">Tech</a></span>
+          <span class="menu_item"><a href="#">Science</a></span>
+          </nav>
+
+        <div class="copyright">© 2016, My Times (A Division of Codecademy bite)
+        </div>
       </footer>
 
 
