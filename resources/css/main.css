@@ -87,7 +87,7 @@ header {
 }
 
 .main_story_image {
-  background-image: url('./resources/images/img-story-main.png');
+  background-image: url('resources/images/img-story-main.png');
   width: 630px;
   height: 300px;
   margin-top: 0;
