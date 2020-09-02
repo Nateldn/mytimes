@@ -1,0 +1,211 @@
+body {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+a, a:active {
+  color: black;
+}
+
+h2 {
+  margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+
+
+
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.logo_title {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo_title span h1 {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  margin-left: 5px;
+}
+
+.menu {
+  color: black;
+  font-weight: bold;
+  /*display: flex;*/
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.menu_item {
+  margin-left: 20px;
+}
+
+.page_wrap {
+  width: 1232px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto 20px auto;
+}
+
+/*---- Lead Column ---- */
+.lead_column {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  margin: auto 10px;
+
+}
+
+.main_story h2 {
+  color: white;
+  margin-left: 20px;
+
+}
+
+.main_story_image {
+  background-image: url(/Users/NateKwarteng/mytimes/resources/images/img-story-main.png);
+  width: 630px;
+  height: 300px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+
+
+/*--- HEADLINE & TEXT STORIES --*/
+.small_headlines_wrap {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+
+.small_headlines_content {
+  width: 100%;
+  height: auto;
+
+}
+
+/*--- IMAGE AND HEADLINE --*/
+.image_headline_wrap {
+  display: flex;
+  flex-direction: row;
+
+  width: 700px;
+  height: 300px;
+    margin-top: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+.image_headline_content {
+  background-image: url(/Users/NateKwarteng/mytimes/resources/images/img-story-2.png);
+  width:300px;
+}
+
+.image_headline_content-2 {
+  background-image: url(/Users/NateKwarteng/mytimes/resources/images/img-story-3.png);
+  width:300px;
+}
+
+.image_headline_content h2 {
+  color: white;
+  margin-left: 20px;
+
+}
+
+/*============ SECOND COLUMN =========*/
+.second_column {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+
+aside {
+  width: 240px;
+  display: block;
+
+}
+
+aside h3 {
+  font-size: ;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news_bites {
+  color: black;
+  background-color: #f5f5f5;
+
+
+
+
+}
+
+
+.news_bites .bite_item {
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+  display: block;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+
+}
+
+
+
+footer {
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer_title span {
+  color: white;
+  font-weight: bold;
+}
+
+footer nav {}
+
+.copyright {}
