@@ -87,7 +87,7 @@ header {
 }
 
 .main_story_image {
-  background-image: url(./mytimes/resources/images/img-story-main.jpg);
+  background-image: url("./resources/images/img-story-main.jpg");
   width: 630px;
   height: 300px;
   margin-top: 0;
